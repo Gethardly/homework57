@@ -1,0 +1,13 @@
+.mainForm {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 50%;
+}
