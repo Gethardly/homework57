@@ -76,9 +76,9 @@ const UserForm: React.FC<FormProps> = ({onSubmit}) => {
             onChange={onFormChange}
           >
             <option value=''>Select a role</option>
-            <option>Administrator</option>
-            <option>Manager</option>
-            <option>CEO</option>
+            <option>user</option>
+            <option>editor</option>
+            <option>admin</option>
           </select>
         </div>
         <button type="submit" className="btn btn-primary">Add new user</button>
